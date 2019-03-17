@@ -1,0 +1,73 @@
+.title {
+	text-align: center;
+	color: #D4AF37;
+	font-size: 1.5em;
+	font-family: "Comic Sans MS", sans-serif;
+	text-shadow: 4px 4px #000;
+}
+body {
+	width: auto;
+	height: auto;
+	background: url(oak-wood.svg) no-repeat center;
+	background-size: cover;
+}
+.clock {
+	margin: 50px auto;
+	width: 40em;
+	height: 40em;
+	background: #FFFFF0 url(roman.svg) no-repeat center;
+	background-size: 97%;
+	border: 12px solid #D4AF37;
+	border-radius: 50%;
+    position: relative;
+    box-shadow: 0 0 4px 2px #000,
+        inset 0 0 6px 3px #000;
+ }
+ .cover {
+ 	width: 2.5em;
+	height: 2.5em;
+	background: #000;
+ 	border-radius:50%;
+  	position: absolute;
+  	top: 47%;
+  	left: 47%;
+ }
+.min-cont, .hr-cont, .sec-cont {
+    width: 90%;
+    height: 90%;
+    left: 5%;
+    top: 5%;
+    position: absolute;
+}
+
+.hours {
+  background: url('hour-hand.svg') no-repeat center;
+  background-size: 18%;
+  height: 25%;
+  left: 1.5;
+  position: absolute;
+  top: 27%;
+  transform-origin: 50% 100%;
+  width: 100%;
+}
+.minutes {
+  background: url('clock-hand.svg') no-repeat center;
+  background-size: 70%;
+  height: 45%;
+  left: 2%;
+  position: absolute;
+  top: 10%;
+  transform-origin: 50% 100%;
+  width: 100%;
+}
+.seconds {
+  background: #D4AF37;
+  height: 60%;
+  left: 49.5%;
+  position: absolute;
+  top: 5%;
+  transform-origin: 50% 100%;
+  width: 1%;
+  box-shadow:
+    inset 2px 0 0 0  #2F4F4F
+}
