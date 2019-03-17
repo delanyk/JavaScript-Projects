@@ -30,5 +30,5 @@ const initiateClock = function() {
    	hands[2].hand.style.transitionDuration = '0.05s';
   }
 };
-setInterval(initiateClock, 1000)
 initiateClock();
+setInterval(initiateClock, 1000)
